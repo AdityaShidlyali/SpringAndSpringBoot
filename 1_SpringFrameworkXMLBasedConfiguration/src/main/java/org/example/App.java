@@ -5,6 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class App {
     public static void main(String[] args) {
+
+        // for custom xml based configuring the container and beans
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 
         // constructor injection of Doctor class
